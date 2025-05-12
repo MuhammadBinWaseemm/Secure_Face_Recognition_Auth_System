@@ -1,0 +1,773 @@
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Script started
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Raw input: {"action":"verify","face_data":[210.96057415008545,234.7503125667572,295.4107451438904,229.84708786010742,260.02227306365967,274.4020043313503,261.7988896369934,303.6817252635956,165.03064155578613,247.59372532367706,337.98460960388184,236.69780731201172]}
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Error checking tables: SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name='...
+                         ^
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Fetched 2 face records
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Invalid face data for ID 1
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: Invalid face data for ID 4
+[11-May-2025 19:44:40 Europe/Berlin] face_login.php: No matching face found, min_distance: 1.7976931348623E+308
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Script started
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Raw input: {"action":"verify","face_data":[200.69830417633057,241.2572693824768,277.9172644019127,227.957364320755,250.5220866203308,274.9042023718357,260.44886469841003,303.6959373950958,163.4705352783203,259.03409242630005,323.37337493896484,230.31723618507385]}
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Error checking tables: SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name='...
+                         ^
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Fetched 2 face records
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Invalid face data for ID 1
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: Invalid face data for ID 4
+[11-May-2025 19:54:32 Europe/Berlin] face_login.php: No matching face found, min_distance: 1.7976931348623E+308
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Script started
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Raw input: {"action":"verify","face_data":[203.46728444099426,233.94418716430664,287.4147033691406,230.20514488220215,252.9405641555786,277.3139289021492,253.40301513671875,303.52519512176514,155.9593629837036,239.85145211219788,325.789852142334,233.30901861190796]}
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Error checking tables: SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name='...
+                         ^
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Fetched 2 face records
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Invalid face data for ID 1
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: Invalid face data for ID 4
+[11-May-2025 19:54:52 Europe/Berlin] face_login.php: No matching face found, min_distance: 1.7976931348623E+308
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Script started
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Raw input: {"action":"verify","face_data":[193.348708152771,176.64763927459717,254.91233348846436,174.16239738464355,225.5292046070099,206.81248873472214,227.14660465717316,227.3138988018036,162.95179843902588,184.41465318202972,291.55189037323,178.52597057819366]}
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Error checking tables: SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name='...
+                         ^
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Fetched 2 face records
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Invalid face data for ID 1
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: Invalid face data for ID 4
+[11-May-2025 19:58:38 Europe/Berlin] face_login.php: No matching face found, min_distance: 1.7976931348623E+308
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Script started
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Raw input: {"action":"verify","face_data":[237.94359683990479,236.1598563194275,315.0854301452637,238.13472390174866,284.42148864269257,276.21118158102036,279.8109196871519,304.4204270839691,186.16582870483398,245.8492362499237,342.3542785644531,249.58224892616272]}
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Error checking tables: SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name='...
+                         ^
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Fetched 1 face records
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: Invalid face data for ID 5
+[11-May-2025 20:04:16 Europe/Berlin] face_login.php: No matching face found, min_distance: 1.7976931348623E+308
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Script started
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Request method: POST
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Raw input length: 287
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Received action: save, email: mahad.aqeel7@gmail.com, face_data_length: 12
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Database connection test successful
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Found user_id: 6 for email: mahad.aqeel7@gmail.com
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Processed face data length: 12
+[11-May-2025 20:09:47 Europe/Berlin] face.php: Face data inserted for id: 6
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Script started
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Raw input length: 255
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Fetched 1 face records
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Comparing - input length: 12, stored length: 12 for ID: 6
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Distance for id 6: 127.4129247837
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: Best match distance: 127.4129247837, threshold: 1
+[11-May-2025 20:11:45 Europe/Berlin] face_login.php: No matching face found, min_distance: 127.4129247837
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Script started
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Raw input length: 254
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Fetched 1 face records
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Comparing - input length: 12, stored length: 12 for ID: 6
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Distance for id 6: 222.84848716669
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: Best match distance: 222.84848716669, threshold: 1
+[11-May-2025 20:12:06 Europe/Berlin] face_login.php: No matching face found, min_distance: 222.84848716669
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Script started
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Raw input length: 258
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Fetched 1 face records
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Comparing - input length: 12, stored length: 12 for ID: 6
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Distance for id 6: 197.28986010143
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: Best match distance: 197.28986010143, threshold: 1
+[11-May-2025 20:13:33 Europe/Berlin] face_login.php: No matching face found, min_distance: 197.28986010143
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Script started
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Request method: POST
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Raw input length: 258
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Received action: verify, face_data_length: 12
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Database connection test successful
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Fetched 1 face records
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Comparing - input length: 12, stored length: 12 for ID: 6
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Distance for id 6: 205.36149081705
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: Best match distance: 205.36149081705, threshold: 1
+[11-May-2025 20:20:18 Europe/Berlin] face_login.php: No matching face found, min_distance: 205.36149081705
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Script started
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"silvanaluxuries@gmail.com"}
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Received action: get_user_id, email: silvanaluxuries@gmail.com, face_data_length: null
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 00:47:04 Europe/Berlin] face.php: Found user_id: 11 for email: silvanaluxuries@gmail.com
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Script started
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"silvanaluxuries@gmail.com"}
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Received action: get_user_id, email: silvanaluxuries@gmail.com, face_data_length: null
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 00:47:40 Europe/Berlin] face.php: Found user_id: 11 for email: silvanaluxuries@gmail.com
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Script started
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"silvanaluxuries@gmail.com"}
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Received action: get_user_id, email: silvanaluxuries@gmail.com, face_data_length: null
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 00:49:50 Europe/Berlin] face.php: Found user_id: 1 for email: silvanaluxuries@gmail.com
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Script started
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"johnnytylor88@gmail.com"}
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Received action: get_user_id, email: johnnytylor88@gmail.com, face_data_length: null
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 00:53:25 Europe/Berlin] face.php: Found user_id: 2 for email: johnnytylor88@gmail.com
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Script started
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"daniyaltabassam330@gmail.com"}
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Received action: get_user_id, email: daniyaltabassam330@gmail.com, face_data_length: null
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 00:57:11 Europe/Berlin] face.php: Found user_id: 4 for email: daniyaltabassam330@gmail.com
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"rizzzler6996@gmail.com"}
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Received action: get_user_id, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: null
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:18 Europe/Berlin] face.php: Found user_id: 5 for email: rizzzler6996@gmail.com
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:22 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:23 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:24 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:25 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:26 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:27 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:28 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:29 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Script started
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Raw input: {"action":"save","email":"rizzzler6996@gmail.com","face_data":[]}
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Received action: save, raw_email: rizzzler6996@gmail.com, processed_email: rizzzler6996@gmail.com, face_data_length: 0
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:01:30 Europe/Berlin] face.php: Invalid or empty face_data
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Script started
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"u2023406@giki.edu.pk"}
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Received action: get_user_id, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: NULL, face_data: null
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:10:47 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Raw input: {"action":"get_user_id","email":"u2023406@giki.edu.pk"}
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Received action: get_user_id, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: NULL, face_data: null
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:27 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:32 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:32 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:33 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:33 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:33 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:33 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:33 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:33 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:34 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:34 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:35 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:35 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:35 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:35 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:35 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:36 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:36 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:36 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:36 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:36 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:36 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:37 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:37 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:37 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:37 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:37 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:37 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:38 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:38 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:38 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:38 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:38 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:39 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:39 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:39 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:39 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Face data saved for id: 6
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Script started
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Request method: POST
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Raw input: {"action":"save","email":"u2023406@giki.edu.pk","face_data":[307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]}
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Received action: save, raw_email: u2023406@giki.edu.pk, processed_email: u2023406@giki.edu.pk, face_data_type: array, face_data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Database connection test successful
+[12-May-2025 01:16:39 Europe/Berlin] face.php: All users in users table: [{"id":1,"email":"silvanaluxuries@gmail.com","lower_email":"silvanaluxuries@gmail.com"},{"id":2,"email":"johnnytylor88@gmail.com","lower_email":"johnnytylor88@gmail.com"},{"id":4,"email":"daniyaltabassam330@gmail.com","lower_email":"daniyaltabassam330@gmail.com"},{"id":5,"email":"rizzzler6996@gmail.com","lower_email":"rizzzler6996@gmail.com"},{"id":6,"email":"u2023406@giki.edu.pk","lower_email":"u2023406@giki.edu.pk"}]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Found user_id: 6 for email: u2023406@giki.edu.pk
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Normalized face data: [307.8159999847412,261.4529263973236,371.4492464065552,262.3318648338318,343.696773648262,292.0048677921295,340.87281212210655,316.6728365421295,265.6625509262085,271.0566911101341,399.3398857116699,272.52692610025406]
+[12-May-2025 01:16:39 Europe/Berlin] face.php: Face data saved for id: 6

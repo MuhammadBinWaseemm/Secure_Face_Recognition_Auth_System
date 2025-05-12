@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face ID Setup | Face Recognition Authentication</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/face-scan.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <div id="page-container" class="page-container">
+      <div id="face-setup-page" class="page active">
+        <div class="auth-container">
+          <div class="back-btn" id="back-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="star top-right"></div>
+          <div class="star bottom-left"></div>
+          
+          <div class="auth-form">
+            <h1>Face ID Setup</h1>
+            <p class="subtitle">Position your face in the center of the frame and follow the instructions.</p>
+            
+            <div class="face-scan-container">
+              <div class="camera-container">
+                <video id="camera-feed" autoplay playsinline></video>
+                <div class="face-scan-overlay">
+                  <div class="scan-line"></div>
+                  <div class="scan-frame"></div>
+                </div>
+              </div>
+              <div class="scan-instructions">
+                <p id="scan-status">Initializing camera...</p>
+              </div>
+            </div>
+            
+            <button id="start-scan-btn" class="gradient-btn">Start Face Scan</button>
+            <button id="complete-setup-btn" class="gradient-btn" style="display: none;">Complete Setup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/face-recognition.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/face-setup.js"></script>
+</body>
+</html>

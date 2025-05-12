@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Face Recognition Authentication</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <div id="page-container" class="page-container">
+      <div id="login-page" class="page active">
+        <div class="auth-container">
+          <div class="star top-right"></div>
+          <div class="star bottom-left"></div>
+          
+          <div class="auth-form">
+            <h1>Welcome Back, Trailblazer!</h1>
+            <p class="subtitle">We are excited to have you back. Log in now and access your account.</p>
+            
+            <div class="form-group">
+              <label for="username">Email</label>
+              <input type="email" id="username" placeholder="Enter your email" autocomplete="email">
+            </div>
+            
+            <div class="form-group password-group">
+              <label for="password">Password</label>
+              <div class="password-input-container">
+                <input type="password" id="password" placeholder="Enter your password" autocomplete="current-password">
+                <button class="toggle-password">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12C2 12 5 5 12 5C19 5 22 12 22 12C22 12 19 19 12 19C5 19 2 12 2 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            <div class="form-options">
+              <div class="remember-me">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+              </div>
+              <a href="#" class="forgot-password" id="forgot-password-link">Forgot your password?</a>
+            </div>
+
+            <div class="face-id-option">
+              <button id="use-face-id" class="face-id-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 3H7C5.34315 3 4 4.34315 4 6V7M16 3H17C18.6569 3 20 4.34315 20 6V7M8 21H7C5.34315 21 4 19.6569 4 18V17M16 21H17C18.6569 21 20 19.6569 20 18V17M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M2 12C2 12 5 5 12 5C19 5 22 12 22 12C22 12 19 19 12 19C5 19 2 12 2 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Use Face ID</span>
+              </button>
+            </div>
+            
+            <button id="login-btn" class="gradient-btn">Log In</button>
+            
+            <div class="auth-divider">
+              <span>or</span>
+            </div>
+            
+            <div class="social-login">
+              <button class="social-btn google">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.1708 8.36719H17.5V8.33203H10V11.668H14.6979C14.0729 13.6305 12.1854 15 10 15C7.23858 15 5 12.7614 5 10C5 7.23858 7.23858 5 10 5C11.2729 5 12.4368 5.48797 13.3281 6.28281L15.7083 3.90266C14.1479 2.46719 12.1562 1.66797 10 1.66797C5.39792 1.66797 1.66667 5.39922 1.66667 10.0013C1.66667 14.6034 5.39792 18.3346 10 18.3346C14.6021 18.3346 18.3333 14.6034 18.3333 10.0013C18.3333 9.44063 18.2708 8.89375 18.1708 8.36719Z" fill="#FFC107"/>
+                  <path d="M2.62708 6.12422L5.36458 8.12891C6.10625 6.29516 7.90042 5 10 5C11.2729 5 12.4368 5.48797 13.3281 6.28281L15.7083 3.90266C14.1479 2.46719 12.1562 1.66797 10 1.66797C6.83125 1.66797 4.1125 3.47422 2.62708 6.12422Z" fill="#FF3D00"/>
+                  <path d="M10 18.3333C12.1104 18.3333 14.0646 17.5687 15.6062 16.1833L13.0104 13.9583C12.1415 14.6052 11.0883 15.0012 10 15C7.82292 15 5.94271 13.6414 5.31146 11.6906L2.58333 13.8229C4.05209 16.5375 6.80625 18.3333 10 18.3333Z" fill="#4CAF50"/>
+                  <path d="M18.1708 8.36719H17.5V8.33203H10V11.668H14.6979C14.4012 12.6108 13.8167 13.4252 13.0094 14.0015L13.0104 14.0005L15.6063 16.2255C15.4375 16.3792 18.3333 14.168 18.3333 10.0013C18.3333 9.44063 18.2708 8.89375 18.1708 8.36719Z" fill="#1976D2"/>
+                </svg>
+              </button>
+              <button class="social-btn facebook">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5 10.0008C17.5 5.8591 14.1421 2.5 10.0013 2.5C5.85961 2.5 2.5 5.8591 2.5 10.0008C2.5 13.8374 5.33875 16.9815 9.0625 17.4297V12.2652H7.03125V10.0008H9.0625V8.31193C9.0625 6.32961 10.2146 5.27067 12.029 5.27067C12.8988 5.27067 13.8059 5.43364 13.8059 5.43364V7.4002H12.8054C11.8209 7.4002 11.4375 8.0582 11.4375 8.73352V10.0008H13.7031L13.2711 12.2652H11.4375V17.4297C15.1613 16.9815 17.5 13.8374 17.5 10.0008Z" fill="#3b5998"/>
+                </svg>
+              </button>
+              <button class="social-btn apple">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0188 10.5312C14.0312 9.5875 14.3938 8.675 15.0563 7.9625C14.4688 7.1625 13.5688 6.6625 12.6313 6.625C11.6188 6.5125 10.6188 7.225 10.1063 7.225C9.56883 7.225 8.73133 6.6375 7.89383 6.6625C6.78133 6.7125 5.78133 7.3625 5.26883 8.3625C4.16883 10.4 4.98133 13.4 6.03133 15.0125C6.54383 15.8 7.16883 16.675 7.98133 16.6375C8.76883 16.5875 9.07633 16.0875 10.0188 16.0875C10.9438 16.0875 11.2313 16.6375 12.0563 16.6125C12.9063 16.5875 13.4563 15.8125 13.9563 15.0125C14.5563 14.0875 14.8063 13.1875 14.8188 13.15C14.8063 13.1375 13.0188 12.4375 13.0063 10.5375L14.0188 10.5312ZM11.5563 5.2125C12.0063 4.6625 12.2688 3.9375 12.1938 3.2C11.5688 3.2375 10.8313 3.6375 10.3688 4.175C9.94383 4.6625 9.63133 5.4 9.71883 6.125C10.4063 6.1875 11.1063 5.7625 11.5563 5.2125Z" fill="white"/>
+                </svg>
+              </button>
+            </div>
+            
+            <p class="register-link">Don't have an account yet? <a href="registration.html" id="register-link">Register</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reset Password Template -->
+      <div id="reset-password-page" class="page">
+        <div class="auth-container">
+          <div class="back-btn" id="back-to-login-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="star top-right"></div>
+          <div class="star bottom-left"></div>
+          
+          <div class="auth-form">
+            <h1>Reset Password</h1>
+            <p class="subtitle">Type your authorized email address to receive reset password link.</p>
+            
+            <div class="form-group">
+              <label for="reset-email">Email Address</label>
+              <input type="email" id="reset-email" placeholder="Enter your email address" autocomplete="email">
+            </div>
+            
+            <button id="send-reset-link" class="gradient-btn">Send Reset Password Link</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Face Verification Template -->
+      <div id="face-verification-page" class="page">
+        <div class="auth-container">
+          <div class="back-btn" id="back-to-login-from-face-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="star top-right"></div>
+          <div class="star bottom-left"></div>
+          
+          <div class="auth-form">
+            <h1>Face Verification</h1>
+            <p class="subtitle">Please look at the camera to verify your identity.</p>
+            
+            <div class="face-scan-container">
+              <div class="camera-container">
+                <video id="verification-camera" autoplay playsinline></video>
+                <div class="face-scan-overlay verification-overlay">
+                  <div class="scan-line"></div>
+                  <div class="scan-frame"></div>
+                </div>
+              </div>
+              <div class="scan-instructions">
+                <p id="verification-status">Initializing camera...</p>
+              </div>
+            </div>
+            
+            <p class="alternative-login">
+              <a href="#" id="use-password-instead">Use password instead</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/face-recognition.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

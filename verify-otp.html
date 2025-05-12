@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify OTP | Face Recognition Authentication</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/verification.css">
+</head>
+<body>
+  <div class="app-container">
+    <div id="page-container" class="page-container">
+      <div id="verify-code-page" class="page active">
+        <div class="auth-container">
+          <div class="back-btn" id="back-to-registration-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="star top-right"></div>
+          <div class="star bottom-left"></div>
+          
+          <div class="auth-form">
+            <h1>Verify Your Code</h1>
+            <p class="subtitle">Enter the passcode you just received on your email address <span id="masked-email">***@gmail.com</span></p>
+            
+            <div class="verification-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+              <input type="text" maxlength="1" class="code-input" autocomplete="one-time-code">
+            </div>
+            
+            <div class="otp-timer">
+              <p>Code expires in <span id="countdown">05:00</span></p>
+            </div>
+            
+            <button id="verify-btn" class="gradient-btn">Verify</button>
+            
+            <div class="resend-code">
+              <p>Didn't receive the code? <a href="#" id="resend-code-btn">Resend Code</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/otp.js"></script>
+</body>
+</html>
